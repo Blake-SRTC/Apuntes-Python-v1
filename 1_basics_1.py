@@ -25,7 +25,7 @@ menor_que = (1 < 7)
 mayor_o_igual = (5 >= 5)
 menor_o_igual = (3 <= 3)
 
-#Operadores booleanos
+#Operadores logicos
 #and
 #or
 #not

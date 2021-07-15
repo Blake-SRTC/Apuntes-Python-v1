@@ -3,6 +3,7 @@
 #Convertir de String a int
 numero  = input("Ingrese un numero") #Esto almacenara un String
 numero_int = int(input("Ingrese un numero")) #Modificara el String a un int
+numero_dec = float(input("Ingrese un numero")) #Modificara el String a un float
 
 #Convertir de int a String
 numero_entero = int(input("Ingrese un numero"))
