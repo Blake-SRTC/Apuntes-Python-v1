@@ -1,3 +1,4 @@
+#Crear las funciones por enciema del codigo que lo llama
 def conversor(tipo_pesos, valor_dolar):
     pesos = input("¿Cuántos pesos " + tipo_pesos + " tienes?: ")
     pesos = float(pesos)

@@ -1,3 +1,4 @@
+#Funciones Void
 # def imprimir_mensaje():
 #     print('Mensaje especial: ')
 #     print('¡Estoy aprendiendo a usar funciones!')
@@ -27,6 +28,7 @@
 #     print('Escribe la opción correcta')
 
 
+#Funciones con retorno
 def suma(a, b): #parametros
     print('Se suman dos números')
     resultado = a + b
