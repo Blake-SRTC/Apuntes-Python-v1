@@ -7,6 +7,9 @@ v_int = 5
 v_float = 3.1415
 v_str = "hola"
 
+#Constantes declaradas con mayusculass
+CONSTANTE = 1000
+
 #Operadores numericos
 suma = 3 + 3
 resta = 4 - 2
@@ -15,6 +18,14 @@ divi = 9 / 3
 potencia = 2 ** 3
 modulo = 7 % 3 #resto
 div_entera =7 // 3 #cociente
+
+#Operadores de incremento - decremento
+contador = 0
+contador += 1
+contador -= 1
+contador *= 4
+contador /= 4
+contador %= 2
 
 #Operadores de comparacion
 asignacion = 3

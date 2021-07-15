@@ -1,3 +1,4 @@
+#Dejando 2 espacios entre funciones es una buena practica
 def palindromo(palabra):
     palabra = palabra.replace(' ', '')
     palabra = palabra.lower()
@@ -7,7 +8,7 @@ def palindromo(palabra):
     else:
         return False
 
-
+#Funcion principal - Estandar run o main
 def run():
     palabra = input('Escribe una palabra: ')
     es_palindromo = palindromo(palabra)
@@ -16,6 +17,6 @@ def run():
     else:
         print('No es palíndromo')
 
-
+#Entry point - Punto de entrada de un programa de python
 if __name__ == '__main__':
     run()
