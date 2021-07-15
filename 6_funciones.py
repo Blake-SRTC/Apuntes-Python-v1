@@ -7,7 +7,7 @@
 # imprimir_mensaje()
 # imprimir_mensaje()
 
-
+# Utilziando parametro "mensaje" un input que recibe la funcion que se utiliza como variable local con un valor
 # def conversacion(mensaje):
 #     print('Hola')
 #     print('Cómo estás')
@@ -15,6 +15,7 @@
 #     print('Adios')
 
 
+#Utilizando argumentos es el valor que se le envia a las funciones para que despues le funcion la reciba como parametro
 # opcion = int(input('Elige una opción (1, 2, 3): '))
 # if opcion == 1:
 #     conversacion('Elegiste la opción 1')
@@ -25,10 +26,11 @@
 # else:
 #     print('Escribe la opción correcta')
 
-def suma(a, b):
+
+def suma(a, b): #parametros
     print('Se suman dos números')
     resultado = a + b
     return resultado
 
-sumatoria = suma(1, 4)
+sumatoria = suma(1, 4) #argumentos
 print(sumatoria)
