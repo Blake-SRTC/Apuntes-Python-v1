@@ -23,4 +23,4 @@ nombre[::] #Trae el nombre completo
 nombre[1::3] #Del incide 1 hasta el final en pasos de 3 en 3
 nombre[::-1] #Pasos inversos - Vamos del final al inicio
 
-
+#slices
