@@ -12,3 +12,9 @@ elif numero == 5:
     print('Es igual a 5')
 else:
     print('Es menor a 5')
+
+#if True:
+#   pass
+#else:
+#   pass
+#pass palabra reservada para saltar el bloque
