@@ -5,6 +5,7 @@ def run():
         'llave3': 3,
     }
 
+    # print(mi_diccionario)
     # print(mi_diccionario['llave1'])
     # print(mi_diccionario['llave2'])
     # print(mi_diccionario['llave3'])
@@ -17,12 +18,15 @@ def run():
 
     # print(poblacion_paises['Bolivia'])
 
+    #Imprime las llaves
     # for pais in poblacion_paises.keys():
     #     print(pais)
 
+    #Imprime los valores
     # for pais in poblacion_paises.values():
     #     print(pais)
 
+    #Imprime los 2 datos (llave, valor)
     for pais, poblacion in poblacion_paises.items():
         print(pais + ' tiene ' + str(poblacion) + ' habitantes')
 
