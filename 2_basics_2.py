@@ -1,5 +1,5 @@
 #Concatenar
-michis = "gato " + "michi"
+michis = "gato" + "michi"
 
 #Obtener longitud
 palabra = "edificio"

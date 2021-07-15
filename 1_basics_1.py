@@ -1,3 +1,5 @@
+#Numeros enteros - Numeros de punto flotante - Texto (Cadenas de caracteres) - Booleanos (verdadero y falso)
+
 #Tipos de datos
 v_bool1 = True
 v_bool2 = False
