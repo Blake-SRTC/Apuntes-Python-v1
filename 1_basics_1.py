@@ -15,6 +15,7 @@ modulo = 7 % 3 #resto
 div_entera =7 // 3 #cociente
 
 #Operadores de comparacion
+asignacion = 3
 igualdad = (3 == 3)
 distinto = (4 != 4)
 mayor_que = (5 > 1)
@@ -23,7 +24,19 @@ mayor_o_igual = (5 >= 5)
 menor_o_igual = (3 <= 3)
 
 #Operadores booleanos
-
 #and
 #or
 #not
+
+#Preferencia de resolucion
+# 1. Parentesis
+# 2. Exponentes
+# 3. Multiplicacion
+# 4. division
+# 5. adicion
+# 6. substracion
+
+#Definicion de variables 
+# 1. Nunca comenzar con un numero
+# 2. Siempre empezar en minusculas
+# 3. Multiples palabras separadas por guion bajo _
