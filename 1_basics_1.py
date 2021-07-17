@@ -8,6 +8,7 @@ v_bool2 = False
 v_int = 5
 v_float = 3.1415
 v_str = "hola"
+v_none = None
 
 #Constantes declaradas con mayusculass
 CONSTANTE = 1000
