@@ -30,8 +30,11 @@ contador *= 4
 contador /= 4
 contador %= 2
 
-#Operadores de comparacion
+#Asignacion
 asignacion = 3
+
+#Operadores de comparacion
+
 igualdad = (3 == 3)
 distinto = (4 != 4)
 mayor_que = (5 > 1)
