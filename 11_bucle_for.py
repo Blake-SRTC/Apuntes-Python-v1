@@ -18,3 +18,35 @@
 
 for i in range(10):
     print(11 * i)
+
+#-------------------------------------------------------
+# Objetos Iterables
+# iter('cadena') # cadena
+# iter(['a', 'b', 'c']) # lista
+# iter(('a', 'b', 'c')) # tupla
+# iter({'a', 'b', 'c'}) # conjunto
+# iter({'a': 1, 'b': 2, 'c': 3}) # diccionario
+
+frutas = ['manzana', 'pera', 'mango']
+for fruta in frutas:
+    print(fruta)
+
+
+#Bucles for con diccionarios
+# estudiantes = {
+#     'mexico': 10,
+#     'colombia': 15,
+#     'puerto_rico': 4,
+# }
+
+# for pais in estudiantes:
+#     ...
+
+# for pais in estudiantes.keys():
+#     ...
+
+# for numero_de_estudiantes in estudiantes.values():
+#     ...
+
+# for pais, numero_de_estudiantes in estudiantes.items():
+#     ...

@@ -39,8 +39,8 @@ igualdad = (3 == 3)
 distinto = (4 != 4)
 mayor_que = (5 > 1)
 menor_que = (1 < 7)
-mayor_o_igual = (5 >= 5)
-menor_o_igual = (3 <= 3)
+mayor_o_igual_que = (5 >= 5)
+menor_o_igual_que = (3 <= 3)
 
 #Operadores logicos
 #and
