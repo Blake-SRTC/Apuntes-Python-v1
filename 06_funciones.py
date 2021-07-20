@@ -36,3 +36,15 @@ def suma(a, b): #parametros
 
 sumatoria = suma(1, 4) #argumentos
 print(sumatoria)
+
+
+#------------------------------------------------------------------------
+def nombre_completo(nombre, apellido, inverso=False):
+    if inverso:
+        return f'{apellido} {nombre}'
+    else:
+        return f'{nombre} {apellido}'
+
+nombre_completo('juan', 'perez')
+nombre_completo('juan', 'perez', inverso=True)
+nombre_completo(apellido='perez', nombre='juan')
