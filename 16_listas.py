@@ -81,3 +81,37 @@ lista_1 = [1, True, 4.5, 1]
 for i in lista_1:
     print(i)
 
+
+# -----------------------------------------------------------
+# Apuntando a la misma direccion en memoria
+
+a = [1, 2, 3]
+b = a
+id(a)
+id(b)
+# observamos que apuntan al mismo lugar
+# Modificando a modifica b y viceversa
+
+# Clonando listas
+# Solucion 1
+c = list(a)
+id(a)
+id(c)
+# Solucion 2
+d = a[::]
+id(a)
+id(d)
+# Solucion 3
+e = a.copy()
+# Obtenemos una direccion diferente de memoria y solucionamos el problema
+
+#------------------------------------------------------------------------
+# List Comprehension
+# aplicando operaciones a todos los valores de una lista o secuencia, condiciones = filtro
+my_list = list(range(100))
+
+# Multiplicando en 2 todos los valroes
+doble = [i*2 for i in my_list]
+
+# Todos los valores pares
+pares = [i for i in my_list if i % 2 == 0]

@@ -11,3 +11,15 @@ mi_tupla = (1, 2, 3, 4, 5)
 
 for numero in mi_tupla:
     print(numero)
+
+# Tupla de un solo valor
+my_tuple = (1,)
+
+# Desempaquetando una tupla
+my_tuple = (1, 2, 3)
+x, y, z = my_tuple
+# Con funciones
+def coordenadas():
+    return (5, 4)
+
+x, y = coordenadas()
