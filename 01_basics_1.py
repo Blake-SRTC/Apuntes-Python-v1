@@ -59,3 +59,4 @@ menor_o_igual_que = (3 <= 3)
 # 1. Nunca comenzar con un numero
 # 2. Siempre empezar en minusculas
 # 3. Multiples palabras separadas por guion bajo _
+#
